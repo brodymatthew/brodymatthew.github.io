@@ -1,5 +1,11 @@
 body {
 	display: grid;
+	margin: 0px;
+	border: 1px solid black;
+}
+.bg {
+	background-image: url("pictures/clouds.jpg");
+	background-size: cover;
 }
 .top {
 }
@@ -37,6 +43,8 @@ nav{
 .title {
   	display: inline-grid;
 	justify-content: center;
+	padding-top: 10px;
+	margin-left: 175px;
 }
 .h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -64,9 +72,8 @@ nav{
   	font-size: 50px;
 }
 .h2:hover {
-    font: normal 10px Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #565656;
-    color: black;
+    font: normal 10px kranky;
+    color: white;
 	/*Chrome, Safari*/
     -webkit-background-clip: text;
 	/*Firefox*/
@@ -77,15 +84,17 @@ nav{
 .h2 {
 	display: inline-block;
   	padding-bottom: 50px;
-	padding-left: 175px;
+	padding-left: 275px;
   	font-family: Verdana, Geneva, Tahoma, sans-serif;
   	font-size: 10px;
-	color: white;
+	color: #1F93B5;
+	
 }
 ul {
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0;
+	border: 2px dotted black;
 	padding: 0;
 }
 li {
@@ -97,10 +106,11 @@ img {
   	min-width: 100%;
 	object-fit: cover;
 }
-.testing {
-  	display: flex;
-  	flex-direction: row;
+.bottom {
+  	display: inline-grid;
   	justify-content: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin-top: 10px;
 }
 .stars:hover{
   	filter: saturate(300%);
