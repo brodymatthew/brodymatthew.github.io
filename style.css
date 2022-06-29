@@ -1,0 +1,111 @@
+body {
+	display: grid;
+}
+.top {
+}
+nav{
+	float: right;
+}
+.view a:hover {
+	filter: contrast(0%);
+}
+.view a{
+	display: inline-grid;
+	width: 40px;
+	padding: 3px;
+	margin: 0px;
+}
+#li {
+	width: 1px;
+}
+#about {
+	width: 1px;
+}
+#date:hover {
+	filter: saturate(500%);
+}
+#date {
+	display: inline-block;
+	float: left;
+	padding: 3px;
+	margin: 0;
+	border: 1px solid;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	background-color: beige;
+	box-shadow: 2px 2px black;
+}
+.title {
+  	display: inline-grid;
+	justify-content: center;
+}
+.h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .1em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+.h1 {
+  	font-family: Verdana, Geneva, Tahoma, sans-serif;
+  	font-size: 50px;
+}
+.h2:hover {
+    font: normal 10px Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #565656;
+    color: black;
+	/*Chrome, Safari*/
+    -webkit-background-clip: text;
+	/*Firefox*/
+    -moz-background-clip: text;
+	/*Standard Syntax*/
+    background-clip: text;
+}
+.h2 {
+	display: inline-block;
+  	padding-bottom: 50px;
+	padding-left: 175px;
+  	font-family: Verdana, Geneva, Tahoma, sans-serif;
+  	font-size: 10px;
+	color: white;
+}
+ul {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+}
+li {
+  	height: 40vh;
+  	flex-grow: 1;
+}
+img {
+  	max-height: 100%;
+  	min-width: 100%;
+	object-fit: cover;
+}
+.testing {
+  	display: flex;
+  	flex-direction: row;
+  	justify-content: center;
+}
+.stars:hover{
+  	filter: saturate(300%);
+}
+.f {
+  	resize: both;
+  	overflow: auto;
+}
