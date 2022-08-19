@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.fec82228.css",
-    "main.js": "/static/js/main.b7f4384c.js",
+    "main.css": "/static/css/main.2f56ca53.css",
+    "main.js": "/static/js/main.6baa5ce4.js",
+    "static/media/front_image.png": "/static/media/front_image.6f5f617433e805643d9a.png",
     "static/media/brody_scar_camping.JPG": "/static/media/brody_scar_camping.205c7f0367edc01cffad.JPG",
+    "static/media/front-page-img2.png": "/static/media/front-page-img2.974db60a343f84f82885.png",
     "static/media/backflip.JPG": "/static/media/backflip.6ea677c66d2eefc2b1d7.JPG",
     "static/media/education_pic.jpeg": "/static/media/education_pic.751956592032bc40319f.jpeg",
     "static/media/brody&scarlet.jpg": "/static/media/brody&scarlet.5d281f80dc6eddca365d.jpg",
+    "static/media/resume.pdf": "/static/media/resume.b906c7d4e181dcb5ec66.pdf",
     "static/media/Ethereal-ExtraBold.otf": "/static/media/Ethereal-ExtraBold.f0ff542e99bd97d2ca03.otf",
     "index.html": "/index.html",
-    "main.fec82228.css.map": "/static/css/main.fec82228.css.map",
-    "main.b7f4384c.js.map": "/static/js/main.b7f4384c.js.map"
+    "main.2f56ca53.css.map": "/static/css/main.2f56ca53.css.map",
+    "main.6baa5ce4.js.map": "/static/js/main.6baa5ce4.js.map"
   },
   "entrypoints": [
-    "static/css/main.fec82228.css",
-    "static/js/main.b7f4384c.js"
+    "static/css/main.2f56ca53.css",
+    "static/js/main.6baa5ce4.js"
   ]
 }
