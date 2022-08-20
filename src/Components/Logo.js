@@ -2,12 +2,11 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import {Link} from 'react-router-dom';
 import '../App.css';
+import { GoHome } from 'react-icons/go';
 
 function Logo() {
     return (
-        <div className="logo-box">
-            <Link to="/" style={{ textDecoration: 'none' }}><h1 className="logo">Brody Matthew</h1></Link>
-        </div>
+        <Link to="/" style={{ textDecoration: 'none' }}><GoHome className='gohome'/></Link>
     );
   }
   

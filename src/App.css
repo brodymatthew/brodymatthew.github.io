@@ -16,7 +16,10 @@
     width: 100%;
   }
 }
-
+body {
+  margin: 0;
+  padding: 0;
+}
 .container {
   height: 100vh;
   width: 100%;
@@ -24,42 +27,48 @@
 }
 .bg {
   background-color: black;
+  position: absolute;
+  bottom: 0;
   height: 100vh;
   width: 100%;
   z-index: 0;
 }
-.bg-image {
-  height: 100vh;
-  width: 100%;
-  opacity: 25%;
-}
 .logo-box {
-  position: absolute;
-  top: 50px;
-  left: 50px;
   z-index: 2;
-}
-.logo {
-  color: #e66465;
-  font-size: 40px;
 }
 .main_logo1 {
   justify-items: center;
+}
+.gohome {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 35px;
+  left: 35px;
+}
+.gohome:hover {
+  color: rgb(108, 108, 219);
 }
 a {
   text-decoration: none;
   padding-left: 10px;
   color: white;
 }
+a:hover {
+  color: rgb(108, 108, 219);
+}
+.intro_wrapper {
+
+}
 .front-page-text {
   display: flex;
-  font-size: 3em;
+  font-size: 40px;
   color: white;
   position: absolute;
   left: 10vh;
-  top: 280px;
+  top: 134px;
   z-index: 2;
-  width: 1750px;
+  width: 1200px;
   padding: 15px;
   border: 1px solid white;
 }
@@ -74,7 +83,7 @@ a {
   z-index: 2;
   padding: 15px;
   left: 10vh;
-  top: 60vh;
+  top: 55vh;
   width: 1750px;
 }
 .front_image {
@@ -84,8 +93,8 @@ a {
   left: 0vw;
   padding: 0;
   margin: 0;
-  width: 500px;
-  height: 780px;
+  width: 450px;
+  height: 587px;
   opacity: 50%;
 }
 .front_image2 {
@@ -106,13 +115,15 @@ h1 {
 }
 .nav-container {
   position: absolute;
-  right: 450px;
+  right: 250px;
   top: 0;  
   width: 500px;
-  height: 100px;
+  height: 50px;
   margin: 2em;
-  font-size: 25px;
+  font-size: 15px;
   z-index: 2;
+  border: 3px solid rgb(108, 108, 219);
+  border-radius: 100px;
 }
 .nav_ul {
   text-decoration: none;
@@ -210,36 +221,36 @@ svg {
 .p1 {
   color: white;
   position: absolute;
-  top: 450px;
+  top: 300px;
   left: 150px;
-  font-size: 35px;
-  width: 1500px;
+  font-size: 25px;
+  width: 1000px;
 }
 .p2 {
   color: white;
   position: absolute;
-  top: 750px;
+  top: 500px;
   left: 150px;
-  font-size: 35px;
-  width: 1500px;
+  font-size: 25px;
+  width: 1000px;
 }
 .img-scar {
   position: absolute;
-  top: 250px;
+  top: 220px;
   right: 350px;
   transform: rotate(10deg);
   border-radius: 50px;
-  width: 300px;
-  height: 375px;
+  width: 200px;
+  height: 275px;
 }
 .img-grad {
   position: absolute;
-  top: 675px;
+  top: 510px;
   right: 200px;
   transform: rotate(350deg);
   border-radius: 50px;
-  width: 300px;
-  height: 375px;
+  width: 200px;
+  height: 275px;
 }
 .img-scar:hover {
   border: 5px solid rgb(108, 108, 219);
